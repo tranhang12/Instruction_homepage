@@ -47,6 +47,7 @@ header {
 } */
 .header__top {
     background-color: #FF4F81;
+    align-items: center;
 }
 .header__top a {
     font-size: 14px;
@@ -58,6 +59,9 @@ header {
 }
 .header__left a:hover {
     color: black;
+}
+.header__right {
+    text-align: center;
 }
 .header__right a {
     display: inline-block;
@@ -86,6 +90,14 @@ header {
     color: #FF4F81;
     letter-spacing: 3px;
 }
+.navbar-instruction .navbar-toggler {
+    color: #FF4F81;
+    background: black;
+    border-radius: 0;
+}
+/* .navbar-instruction .navbar-toggler:focus {
+    box-shadow: none;
+} */
 #instructionDropdown .nav-item {
     margin: 0 15px;
 }
@@ -143,7 +155,7 @@ header {
     font-weight: 300;
     margin: 15px 160px;
     letter-spacing: 4px;
-    line-height: 30px;
+    line-height: 1.8em;
 }
 #instructionCarousel .carousel-caption button {
     border: 1px solid white;
@@ -221,6 +233,7 @@ header {
     padding: 1rem;
 }
 .offer__item {
+    height: 100%;
     padding: 25px 40px;
     box-shadow: 1px 2px 8px 2px rgb(158 158 158 / 75%);
     text-align: center;
@@ -279,7 +292,7 @@ header {
     display: flex;
     justify-content: center;
     margin: 2rem auto;
-    width: 55%;
+    /* width: 55%; */
 }
 .feedback__item .feedback__bottom img {
     width: 50px;
@@ -309,7 +322,7 @@ header {
     border: 2px solid #9999;
 }
 .news__content .row:last-child {
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 .news__content h3 {
     font-size: 1.5rem;
@@ -372,17 +385,19 @@ footer {
     font-size: 1rem;
     line-height: 1.8em;
 }
-.footer__top .footer__content .footer__link {
-    margin-bottom: 16px;
-}
 .footer__top .footer__content .footer__link i {
     color: #FF4F81;
 }
 .footer__top .footer__content .footer__link a, .footer__top .footer__content .footer__contact__info a {
-    text-decoration: none;
+    text-decoration: none;    
     color: #8b8a8a;
     margin-left: 12px;
     transition: all .5s;
+}
+.footer__top .footer__content .footer__link, .footer__top .footer__content .footer__contact__info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
 }
 .footer__top .footer__content .footer__link a:hover, .footer__top .footer__content .footer__contact__info a:hover {
     color: white;
@@ -395,7 +410,6 @@ footer {
     font-size: 1rem;
     text-align: center;
     line-height: 32px;
-    margin-bottom: 18px;
 }
 
 .footer__top .footer__form label {

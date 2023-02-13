@@ -1,0 +1,90 @@
+/* Responsive */
+/* Header  */
+@media screen and (max-width: 1199.98px) {
+  #instructionCarousel .carousel-caption {
+    top: 50%;
+  }
+  #instructionCarousel .carousel-caption h1 {
+    font-size: 4vw;
+  }
+  #instructionCarousel .carousel-caption p {
+    font-size: 1.6vw;
+    margin: 1em 7em 0.5em;
+  }
+  #instructionCarousel .carousel-caption button {
+    font-size: 1.5vw;
+    padding: 0.6em 1em;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .navbar-instruction .navbar-brand p:first-child {
+    font-size: 3vw;
+  }
+  .navbar-instruction .navbar-brand p:last-child {
+    font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  #instructionDropdown .navbar-nav {
+    background-color: #eee;
+    text-align: center;
+  }
+  #instructionDropdown .dropdown-menu {
+    background-color: #e0e1e2;
+    border-color: #e0e1e2;
+  }
+  #instructionDropdown .dropdown-menu .dropdown-item {
+    color: black;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  /* Global */
+  .heading p {
+    padding: 0 15px;
+  }
+  .header__left a {
+    display: block;
+  }
+  /* FOOTER  */
+  .footer__top .footer__form input, .footer__top .footer__form button {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+}
+@media screen and (max-width: 415px) {
+  #instructionCarousel {
+    height: 250px;
+  }
+  #instructionCarousel .carousel-inner,
+  #instructionCarousel .carousel-item,
+  #instructionCarousel .carousel-item img {
+    height: 100%;
+  }
+  #instructionCarousel .carousel-item img {
+    object-fit: cover;
+  }
+  /* FOOTER */
+  .footer__top .footer__form label {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__right {
+    width: 35%;
+  }
+  .header__right a {
+    margin-bottom: 5px;
+  }
+}
+/* nabav */
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  #instructionDropdown .nav-item {
+    margin: 0;
+    padding: 0 2px;
+  }
+  #instructionDropdown .nav-item .nav-link {
+    font-size: 12px;
+    padding: 5px;
+  }
+}
